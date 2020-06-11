@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@/imx-mm/parser
+includedir=@includedir@/imx-mm/parser
+
+Name: Freescale media format parser 
+Description: Optimized SW media format parser from freescale
+Version: @VERSION@
+Libs: -L${libdir} -L@libdir@
+Cflags: -I${includedir}

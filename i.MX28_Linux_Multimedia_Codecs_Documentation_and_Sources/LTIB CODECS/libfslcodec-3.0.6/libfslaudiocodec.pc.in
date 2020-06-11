@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@/imx-mm/audio-codec
+includedir=@includedir@/imx-mm/audio-codec
+
+Name: Freescale audio codec
+Description: Optimized SW audio decoder/encoder from freescale
+Version: @VERSION@
+Libs: -L${libdir}
+Cflags: -I${includedir}
